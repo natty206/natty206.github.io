@@ -1,0 +1,59 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
+
+        <title> Natty's Assignment 4: High(er) voltage and transistors!</title> 
+
+        <link href="style.css" media="screen" rel="stylesheet" type="text/css" />
+
+    </head> 
+    <body> 
+
+        <div class="header">
+            <h1>Natty's Assignment 4: High(er) voltage and transistors!</h1>
+            <p>
+            The prompt was to create a schematic, circuit, and code that uses a transistor to control load power separate from logic power. 
+            </p>
+            <p>
+                <img src="Transistors_A4.gif" width=300></a>
+            </p>
+        </div>
+            <h2> Schematic</h2>
+            <p>
+        
+            </p>
+            <p> 
+                <img src="Schematic_A4.JPG" width=500></a>
+            </p>
+            <p>
+                <code>
+                (300 LEDs) / (18 watts) = (57 LEDs) / (X watts) <br />
+                X = 3.42 watts <br />
+            </code>
+            </p>
+            <p>
+                Since I only used 57 LEDs out of the 300 LEDs, it only uses 3.42 watts.
+            </p>
+            <p>
+                <code>
+                12V - 3V - 3V - 3V = 3V <br />
+                v = IR <br />
+                3 = I (240(ohms)) <br />
+                I = 0.0125A <br />
+            </code>
+            </p>
+            <p>
+                Each LED strip has 240 ohms, and the current runs through each strip at 0.0125A.
+            </p>
+
+        </div>
+            <h2> My Arduino Code!</h2>
+            <p> 
+            <img src="Ardunio_A4.JPEG" width=800></a>          
+            </p>
+        </div>
+        
+    </body>
+</html>
